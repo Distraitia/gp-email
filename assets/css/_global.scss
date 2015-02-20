@@ -1,0 +1,105 @@
+#background-table {
+	width: 100%;
+	border: none;
+}
+#td1 {
+	background-color: $wt;
+}
+.w640 {
+	width: 640px;
+}
+.center {
+	text-align: center;
+}
+
+
+/* ### LOGO ### */
+#logo-img {
+	width: 223px;
+	height: 42px;
+}
+
+/* table */
+#table2 {
+	margin: 0 10px;
+	border: none;
+}
+
+/* Action section */
+#actionTable-td {
+	background: $blue-btn;
+	padding-top: $spacing-xs;
+	padding-right: $side-spacing-md;
+	padding-bottom: $spacing-xs;
+	padding-left: $side-spacing-md;
+	color: $wt;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: $font-gp;
+	display: block;
+	font-size: $font-md;
+}
+#actionTD-a {
+	color: $wt;
+	text-decoration: none;
+}
+
+
+
+
+
+
+#text-tr,
+#signature-tr,
+#footer-tr,
+.tr {
+	border-collapse: collapse;
+	border: 1px solid $wt;
+}
+#text-td,
+#signature-td,
+#footer-td,
+.td {
+	border-collapse: collapse;
+	font-family: $font-1;
+	border: 1px solid $wt;
+}
+#text-td-article-content,
+#signature-td-article-content,
+.td-article-content {
+	font-size: $font-sm;
+	line-height: $margin-md;
+	color: $blk;
+	margin-top: $margin-md;
+	font-family: $font-2;	
+}
+#text-td-div-div,
+#signature-td-div-div,
+.td-div-div {
+	margin-bottom: 15px;
+}
+
+/* ### TEXT ### */
+
+/* ### SIGNATURE ### */
+#signature-img {
+	width: 171px;
+	height: 78px;
+}
+
+/* ### Footer ### */
+.footerTable-td {
+	padding-top: $spacing-xs;
+	padding-bottom: $spacing-xs;
+}
+.footerTable-td-a {
+	text-decoration: none;	
+}
+#footerTable-td2-a {
+	margin-left: $side-spacing-sm;
+	margin-right: $side-spacing-sm;
+}
+.social-media-img {
+	width: 30px;
+	height: 29px;
+}

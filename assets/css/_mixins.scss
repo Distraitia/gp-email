@@ -1,43 +1,47 @@
+/* Colors */
 $blue-btn: #00a3f7;
 $blue-link: #0096ff;
 $blk: #000;
 $wt: #fff;
 
+/* Fonts */
+$font-gp: Arial, sans-serif;
+
+/* Font Sizes */
+$font-fineprint: 11px;
+$font-xs: 12px;
+$font-sm: 13px;
+/*$font-md: 14px;*/
+$font-md: 18px;
+$font-md-bigger: 21px;
+$font-lg: 40px;
+
+/* Stibo Stuff */
 $red: #ff4000;
 $gray9: #999;
-
 $font-1: Helvetica, Arial, Geneva, sans-serif;
 $font-2: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
 
-#background-table {
-	width: 100%;
-	border: none;
-}
-#td1 {
-	background-color: $wt;
-}
-.w640 {
-	width: 640px;
-}
-#table2 {
-	margin: 0 10px;
-	border: none;
-}
 
-#actionTable-td {
-	background: $blue-btn;
-	padding-top: 8px;
-	padding-right: 12px;
-	padding-bottom: 8px;
-	padding-left: 12px;
-	color: #ffffff;
-	font-weight: bold;
-	text-decoration: none;
-	font-family: Helvetica, Arial, sans-serif;
-	display: block;font-size:16px
-}
+/* Margins */
+$margin-top-lg: 25px;
 
-#actionTD-a {
-	color: $wt;
-	text-decoration: none;
-}
+$margin-bottom-sm: 15px;
+$margin-bottom-md: 16px;
+$margin-bottom-lg: 30px;
+
+/* top and bottom margins */
+$spacing-xs: 8px;
+$margin-xs: 8px;
+$margin-md: 18px;
+
+/* Line Heights */
+$line-height-sm: 15px;
+$line-height-md: 16px;
+$line-height-lg: 18px;
+
+
+$side-spacing-sm: 6px;
+$side-spacing-md: 12px;
+$side-spacing-lg: 19px;
+/**/

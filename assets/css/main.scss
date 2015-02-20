@@ -1,12 +1,13 @@
 @import '_mixins';
+@import '_global';
 
 @media screen and (max-device-width: 480px) {    
     table,
     td,
     img {
 	    &.w640 {
-	    	width:300px !important;
-	    	margin:0 auto;
+	    	width: 300px !important;
+	    	margin: 0 auto;
 	    }
     }
 
@@ -16,7 +17,7 @@
     p,
     span {
 	    &[class*=hide] {
-	    	display:none !important;
+	    	display: none !important;
 	    }
     }
 
@@ -38,14 +39,13 @@
     }
 
     .breakline {
-    	display:block;
+    	display: block;
     }
 
     img {
     	height: auto;
     	line-height: 100%;
     }
-
 }
 
 #outlook a { 
@@ -62,9 +62,9 @@ body {
 
 .ExternalClass { 
 	width: 100%;
-	display:block !important;
-}
- /* Force Hotmail to display emails at full width */
+	display: block !important;
+} /* Force Hotmail to display emails at full width */
+
 body { 
 	background-color: $wt;
 	margin: 0;
@@ -83,7 +83,7 @@ em,
 i {
 	&,
 	br { 
-		line-height:100%;
+		line-height: 100%;
 	}
 }
 
@@ -110,7 +110,7 @@ h6 {
 table td,
 table tr { 
     border-collapse: collapse;
-    border:1px solid $wt;
+    border: 1px solid $wt;
 }
 
 .yshortcuts {
@@ -134,7 +134,7 @@ table tr {
 
 body,
 td { 
-	font-family: $font-1;
+	font-family: $font-gp;
 }
 
 .header-content,
@@ -145,9 +145,9 @@ td {
 }
 
 .header-content { 
-	font-size: 12px;
+	font-size: $font-xs;
 	color: $gray9;
-	margin-top:8px;
+	margin-top: $spacing-xs;
 
 	a { 
 		color: $blue-link;
@@ -156,19 +156,19 @@ td {
 }
 
 #logo {
-	margin-top:25px;
-	margin-bottom:30px;
+	margin-top: $margin-top-lg;
+	margin-bottom: $margin-bottom-lg;
 }
 
 #headline p { 
 	color: $blk;
-	font-family: $font-2;
-	font-size: 40px;
+	font-family: $font-gp;
+	font-size: $font-lg;
 	text-align: center;
-	margin-top:0px;
-	margin-bottom:8px;
-	line-height:1em;
-	letter-spacing:-0.03em;
+	margin-top: 0;
+	margin-bottom: $spacing-xs;
+	line-height: 1em;
+	letter-spacing: -0.03em;
 
 	a { 
 		color: $blk;
@@ -178,24 +178,24 @@ td {
 
 #dateline p {
 	color: $blk;
-	font-family: $font-2;
-	font-size: 14px;
+	font-family: $font-gp;
+	font-size: $font-md;
 	text-align: center;
-	margin-top:0px;
-	margin-bottom:16px;
+	margin-top: 0;
+	margin-bottom: $font-md-bigger;
 }
 
 .article-content { 
-	font-size: 13px;
-	line-height: 18px;
+	font-size: $font-md;
+	line-height: $font-md;
 	color: $blk;
-	margin-top: 18px;
-	font-family: $font-2;
+	margin-top: $font-md;
+	font-family: $font-gp;
 
 	a { 
 		color: $blue-link;
-		font-weight:bold;
-		text-decoration:none;
+		/*font-weight: bold;*/
+		/*text-decoration: none;*/
 	}
 
 	img { 
@@ -204,34 +204,34 @@ td {
 
 	ol,
 	ul { 
-		margin-top:0px;
-		margin-bottom:18px;
-		margin-left:19px;
-		padding:0;
+		margin-top: 0;
+		margin-bottom: $margin-md;
+		margin-left: $side-spacing-lg;
+		padding: 0;
 	}
 
 	li { 
-		font-size: 13px;
-		line-height: 18px;
+		font-size: $font-md;
+		line-height: $line-height-lg;
 		color: $blk;
 
 		a { 
 			color: $blue-link;
-			text-decoration:underline;
+			text-decoration: underline;
 		}
 	}
 
 	p {
-		margin-bottom: 15px;
+		margin-bottom: $margin-bottom-sm;
 	}
 }
 
 .footer-content-left { 
-	font-size: 12px;
-	line-height: 15px;
+	font-size: $font-xs;
+	line-height: $line-height-sm;
 	color: $blk;
-	margin-top: 0px;
-	margin-bottom: 15px;
+	margin-top: 0;
+	margin-bottom: $margin-bottom-sm;
 
 	a { 
 		color: $blue-link;
@@ -241,11 +241,11 @@ td {
 }
 
 .footer-content-right { 
-	font-size: 11px;
-	line-height: 16px;
+	font-size: $font-fineprint;
+	line-height: $line-height-md;
 	color: $blk;
-	margin-top: 0px;
-	margin-bottom: 15px;
+	margin-top: 0;
+	margin-bottom: $margin-bottom-sm;
 
 	a { 
 		color: $blue-link;
@@ -254,7 +254,7 @@ td {
 	}
 }
 
-#footer { 
+#footer-tr { 
 	background-color: $wt;
 	color: $blk;
 
