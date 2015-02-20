@@ -1,0 +1,14 @@
+.DS_Store
+.ftpsettings
+mixture.json
+converted-html/
+.idea
+*.css
+*.iml
+.pid_debug
+assets/js/foot.js
+assets/js/head.js
+assets/js/theme.js
+.divshot-cache
+divshot.json
+allisonNotes.rtf

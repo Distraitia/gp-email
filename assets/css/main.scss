@@ -1,0 +1,275 @@
+@import '_mixins';
+
+@media screen and (max-device-width: 480px) {    
+    table,
+    td,
+    img {
+	    &.w640 {
+	    	width:300px !important;
+	    	margin:0 auto;
+	    }
+    }
+
+    table,
+    td,
+    img,
+    p,
+    span {
+	    &[class*=hide] {
+	    	display:none !important;
+	    }
+    }
+
+    table,
+    td {
+	    &[class=h0] {
+	    	height: 0 !important;
+	    }
+    }
+
+    .article-content {
+    	-webkit-text-size-adjust: 90% !important;
+    	-ms-text-size-adjust: 90% !important;
+    }
+
+    .header-content {
+    	-webkit-text-size-adjust: 80% !important;
+    	-ms-text-size-adjust: 80% !important;
+    }
+
+    .breakline {
+    	display:block;
+    }
+
+    img {
+    	height: auto;
+    	line-height: 100%;
+    }
+
+}
+
+#outlook a { 
+	padding: 0;
+}
+
+body { 
+	width: 100% !important;
+}
+
+.ReadMsgBody { 
+	width: 100%;
+}
+
+.ExternalClass { 
+	width: 100%;
+	display:block !important;
+}
+ /* Force Hotmail to display emails at full width */
+body { 
+	background-color: $wt;
+	margin: 0;
+	padding: 0;
+}
+
+img { 
+	outline: none;
+	text-decoration: none;
+	display: block;
+}
+
+strong,
+b,
+em,
+i {
+	&,
+	br { 
+		line-height:100%;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { 
+	line-height: 100% !important;
+	-webkit-font-smoothing: antialiased;
+
+	a { 
+		color: blue !important;
+	}
+	a:active { 
+		color: red !important;
+	}
+	a:visited { 
+		color: purple !important;
+	}
+}
+
+table td,
+table tr { 
+    border-collapse: collapse;
+    border:1px solid $wt;
+}
+
+.yshortcuts {
+	a {
+		&,
+		&:link,
+		&:visited,
+		&:hover,
+		span {
+			color: black;
+			text-decoration: none !important;
+			border-bottom: none !important;
+			background: none !important;
+		}
+	}
+}
+
+#background-table { 
+	background-color: $wt;
+}
+
+body,
+td { 
+	font-family: $font-1;
+}
+
+.header-content,
+.footer-content-left,
+.footer-content-right { 
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+}
+
+.header-content { 
+	font-size: 12px;
+	color: $gray9;
+	margin-top:8px;
+
+	a { 
+		color: $blue-link;
+		text-decoration: none;
+	}
+}
+
+#logo {
+	margin-top:25px;
+	margin-bottom:30px;
+}
+
+#headline p { 
+	color: $blk;
+	font-family: $font-2;
+	font-size: 40px;
+	text-align: center;
+	margin-top:0px;
+	margin-bottom:8px;
+	line-height:1em;
+	letter-spacing:-0.03em;
+
+	a { 
+		color: $blk;
+		text-decoration: none;
+	}
+}
+
+#dateline p {
+	color: $blk;
+	font-family: $font-2;
+	font-size: 14px;
+	text-align: center;
+	margin-top:0px;
+	margin-bottom:16px;
+}
+
+.article-content { 
+	font-size: 13px;
+	line-height: 18px;
+	color: $blk;
+	margin-top: 18px;
+	font-family: $font-2;
+
+	a { 
+		color: $blue-link;
+		font-weight:bold;
+		text-decoration:none;
+	}
+
+	img { 
+		max-width: 100%
+	}
+
+	ol,
+	ul { 
+		margin-top:0px;
+		margin-bottom:18px;
+		margin-left:19px;
+		padding:0;
+	}
+
+	li { 
+		font-size: 13px;
+		line-height: 18px;
+		color: $blk;
+
+		a { 
+			color: $blue-link;
+			text-decoration:underline;
+		}
+	}
+
+	p {
+		margin-bottom: 15px;
+	}
+}
+
+.footer-content-left { 
+	font-size: 12px;
+	line-height: 15px;
+	color: $blk;
+	margin-top: 0px;
+	margin-bottom: 15px;
+
+	a { 
+		color: $blue-link;
+		font-weight: bold;
+		text-decoration: none;
+	}
+}
+
+.footer-content-right { 
+	font-size: 11px;
+	line-height: 16px;
+	color: $blk;
+	margin-top: 0px;
+	margin-bottom: 15px;
+
+	a { 
+		color: $blue-link;
+		font-weight: bold;
+		text-decoration: none;
+	}
+}
+
+#footer { 
+	background-color: $wt;
+	color: $blk;
+
+	a { 
+		color: $blue-link;
+		text-decoration: none;
+		font-weight: bold;
+	}
+}
+
+#permission-reminder { 
+	white-space: normal;
+}
+
+#street-address { 
+	color: $blk;
+	white-space: normal;
+}
